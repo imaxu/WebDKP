@@ -8,168 +8,157 @@
 -- The actual help content
 local WebDKP_Help = {
     [1] = {
-        ["Name"] = "Welcome",
-        ["Text"] = "|cFFFF0000Welcome to WebDKP|r" ..
+        ["Name"] = "欢迎",
+        ["Text"] = "|cFFFF0000欢迎使用 WebDKP 极端定制版|r" ..
                 "|n|n" ..
-                "This addon is intended to make the task of managing DKP easier by automating many of the administrative tasks. The addon makes it easy to both view and make changes to your guild�s DKP. The changes made in game can then be synced with the WebDKP.com website by either using the included sync tool or uploading your log file from the website control center. " ..
+                "此插件旨在通过多任务自动化管理，使dkp的管理更加容易。 这个插件将使得查看和修改公会的dkp变得很容易. 你也可以使用附带的同步工具或从网站控制中心上传日志文件，将游戏中所做的更改与http://webdkp.wowcat.net网站同步" ..
                 "|n|n" ..
-                "This help document is provided to guide you through the addon�s basic and more advanced use. If this is your very first time using the addon, you can find a handy tutorial in the WebDKP zip file.  If you have any additional questions not covered in this document, or have suggestions, please utilize one of the forums at www.webdkp.com or www.dkptracker.com. " ..
+                "此帮助文档是为了指导你完成插件的基本和更高级的使用方法. 如果这是你第一次使用插件, 你可以在插件内找到Tutorial文件夹,那里有详细的使用方法,也可以参考本帮助页获得帮助.. " ..
                 "|n|n" ..
                 "Thanks,|n" ..
                 "Quartal, Xenosian, Agard, and Zevious"
     },
     [2] = {
-        ["Name"] = "General Use",
-        ["Text"] = "|cFFFF0000General Use|r" ..
+        ["Name"] = "一般使用",
+        ["Text"] = "|cFFFF0000一般使用|r" ..
                 "|n|n" ..
-                "Most of the features of the addon can be reached by selecting |cFFFF0000DKP Table|r from the main drop down menu (off of the minimap). " ..
+                "通过从小地图的金币图标,左键它,可以选择和实现插件的大多数功能。" ..
                 "|n|n" ..
-                "Clicking on this will show the main DKP list on the left and a window with a set of tabs on the right. If this is your first time using the addon the list on the left will probably be empty. That�s because the list is defaulted to only show people who are in your current group. If you were to join a party or a raid you would see the list start to fill in with people. As the table fills in with people you can sort it by clicking on the table headers." ..
+                "单击'DKP表'选项，会出现一个DKP表窗口.这是我们查看和操作DKP的地方. 如果这是你第一次使用插件，那么插件的DKP表里可能是空的。这是因为列表默认只显示当前组中的人。你要参加一个队伍或团队，那你就会看到名单上开始有很多人。当表中填充了人时，可以通过单击表标题对其进行排序." ..
                 "|n|n" ..
-                "The tabs on the right are where all the functions of the addon are located. This area has 3 main tabs for you to work with: Filters, Award DKP, and Award Item. " ..
+                "右边的选项是插件的所有功能所在的位置. 此区域有4个主要选项卡供您使用：过滤、奖惩dkp,奖惩物品,替补 " ..
                 "|n|n" ..
-                "The |cFFFF0000Filters Tab|r allows you to filter what you want to be shown in your DKP table. You can limit the table to certain classes, making it easier to find people you want. Here you also have the option of showing all the people in your table � including those not in your current group � by unchecking �Only show players in current group�. " ..
+                "|cFFFF0000过滤|r 允许您筛选要在DKP表中显示的内容. 你可以将表限制为指定的职业，从而更容易找到所需人员. 在这里，你还可以通过取消选中“仅显示当前组中的玩家”来显示表中的所有人员，包括不在当前组中的人员. " ..
                 "|n|n" ..
-                "The |cFFFF0000Award DKP Tab|r allows you to award or subtract DKP from people. Note that this is only used for DKP alone, not for recording items that are awarded. To award DKP all you need to do is select the people that you want to award from the left, enter a reason and # of points to award, then click �Award DKP�. To make selecting players from the list easier you�ll find two buttons near the bottom called �Select All� and �Deselect All�" ..
+                "|cFFFF0000奖惩DKP|r 允许你从所选人员中奖励或减去dkp. 注意，这仅用于DKP,千万不用于记录奖励物品. 要奖励dkp，你只需从左侧选择要奖励的人员, 输入奖励的理由和分数, 然后点击'奖惩DKP'. 为了便于从列表中选择玩家，你可以在底部找到两个名为“选择所有”和“取消所有”的按钮。" ..
                 "|n|n" ..
-                "Finally, the |cFFFF0000Award Item Tab|r allows you to award an item to a single player. To use it, select a receiving player from the left, an item cost (in positive #�s), enter in the name of the item, and then select Award Item. If you enable �Autofill� or �AutoAward� (on by default) this information will be entered and recorded for you automatically. If you have these features disabled you can also fill in the item name by shift+clicking on the name of an item in chat.  " ..
+                "|cFFFF0000奖惩物品|r 允许你将物品授予单个玩家. 请从左侧选择一个接收玩家、一个物品成本（正数），输入物品名称，然后点击奖惩!. 如果你启用了“自动填充”或“自动奖励”（默认情况下为启用），则会自动为你输入和记录此信息。如果你禁用了这些功能，你还可以在聊天框中按住shift键并单击物品名称来填写物品名称. " ..
                 "|n|n" ..
-                "After you have finished recording information in game you can, the |cFFFF0000Sync Data|r from the WebDKP addon to the WebDKP.com site. Checkout the program WebDKP Sync.exe that came with the addon." ..
+                "在团队结束后,你必须保存文档,并上传到DKP网站 |cFFFF0000http://webdkp.wowcat.net|r " ..
                 "|n|n" ..
-                "The |cFFFF0000Decay Feature|r allows you to put in a value to multiply peoples DKP by. Putting in a value of .5 would subtract 50% of someones DKP that had positive DKP. Putting in a value of -.5 would ADD 50% of a players DKP ONLY if they have negative DKP."
+                "|cFFFF0000关于衰减DKP功能|r 允许你输入一个值衰减全团的dkp。如果值为0.5，则会减去所有为正数dkp的团员的DKP总数的50%. 只有当玩家的dkp为负时，输入-0.5的值才能增加50%的dkp."
 
     },
     [3] = {
-        ["Name"] = "Options",
-        ["Text"] = "|cFFFF0000Options|r" ..
+        ["Name"] = "选项",
+        ["Text"] = "|cFFFF0000选项|r" ..
                 "|n|n" ..
-                "WebDKP has a variety of options that allow you to tweak it to your guilds needs. The option window can be found by clicking on the options choice on the mini map drop down." ..
+                "WebDKP有多种选项，允许你根据你的公会需要对其进行调整。通过单击“小地图”下拉列表中的“选项”选项，可以找到“选项”窗口。" ..
                 "|n|n" ..
-                "|cFFFF0000AutoFill|r � When enabled WebDKP will monitor your chat window for any announcements of people receiving items (ex: Zedd received [Crown of Destruction]). When it detects them it will automatically select the receiving player in the table and fill in the item name box on the Award Item tab. If you are using loot tables the system will also attempt to look up the cost of the item in the loot table and fill it in item cost box. " ..
+                "|cFFFF0000自动填充|r 启用后，WebDKP将监视你的聊天窗口，以查看是否有人接收到物品 (如: Qcat获得了: [一件紫装]). 当插件检测到它们时，它将自动选择dkp表中的接收玩家，并自动在“奖惩物品”选项卡上填写“物品名称”。如果你使用的是战利品表，系统还将尝试在战利品表中查找物品的价格，并将其填写在物品价格框中。 " ..
                 "|n|n" ..
-                "|cFFFF0000Autofill Threshold|r � Sets the level of item that AutoFill will pick up on. For example, should it only autofill information for Blue items or better or should it also include green items?" ..
+                "|cFFFF0000自动填充物品阈值|r 设置自动填充将拾取的物品的品质级别" ..
                 "|n|n" ..
-                "|cFFFF0000AutoAward|r � Takes AutoFill one step farther. When enabled WebDKP will display a popup box whenever it detects an item being received. This popup box will allow you to enter in a DKP cost for the item and automatically record this information in your DKP table. Like AutoFill it is tied in with your loot table. " ..
+                "|cFFFF0000自动奖惩|r 更进一步的自动填充. 当启用后,当插件检测到一个物品被谁捡取后,WebDKP将显示一个弹出框架. 此弹出框将允许你输入物品的DKP成本，并自动将此信息记录在DKP表中。就像自动填充一样，它和你的战利品表单是绑在一起的,同样可以和战利品表单一起使用 " ..
                 "|n|n" ..
-                "|cFFFF0000ZeroSum|r � Checking this enables ZeroSum DKP calculations when awarding DKP. ZeroSum DKP is a system where DKP is only awarded when items are handed out. For the DKP that is spent on the item an equal but opposite amount is awarded and distributed across the entire raid. When enabled, this feature will automatically take care of this calculation for you when you award an item. " ..
+                "|cFFFF0000零和DKP|r 零和DKP是一个DKP分数处理系统，当物品DKP处理完毕时才会被触发。如果你启用了零和DKP模式,那么无论是谁因为获取了装备而被扣的DKP分数都会平均分配给全团参与玩家,例如:你们是一个40人的团队,A获得了一件装备,被扣了40DKP,那么全团都会被奖励到1点DKP,在严格竞争下，一方的收益必然意味着另一方的损失，博弈各方的收益和损失相加总和永远为“零”，双方不存在合作的可能。所以,零和DKP系统是一个相对比较好的科学DKP模式" ..
                 "|n|n" ..
-                "|cFFFF0000Announce Bid in Raid Warning|r � Announces when bidding start via a Raid Warning" ..
+                "|cFFFF0000自动BOSS击杀奖励|r 允许你指定每次杀死SOBB自动获得多少DKP。其他两个复选框允许你为20人或40人启用或禁用此功能." ..
                 "|n|n" ..
-                "|cFFFF0000Confirm Bid Awards|r � When about to award a winning bidder an item a dialog box will be displayed that allows you to customize what the player is paying for the item" ..
-                "|n|n" ..
-                "|cFFFF0000Allow Negative Bids|r � Allows players to bid more money than they have" ..
-                "|n|n" ..
-                "|cFFFF0000Used Fixed Bidding|r � Enables a fixed bidding system. In this system players do not bid specific amounts, they simply say whether they need an item or not by whispering !need (the person with the most dkp wins the item). Winning players are then charged all their dkp. This keeps the system turn base" ..
-                "|n|n" ..
-                "|cFFFF0000Notify Low Bidders|r � Tells bidders when they have bid lower than a person before them" ..
-                "|n|n" ..
-                "|cFFFF0000Auto Award for Boss Kills|r � The enable/disable checkbox will enable or disable this feature. The text box allows you to specifiy how much dkp is automatically awarded for every boss kill. The other two checkboxes allow you to enable or disable this feature for Northrend Raids." ..
-                "|n|n" ..
-                "|cFFFF0000Turn Base DKP|r The enable/disable checkbox will enable or disable this feature. Turn base DKP is where a player bids all their DKP and loses all their DKP for items. The Fixed Bidding code is utilized for this we just eliminated the loot tables."
+                "|cFFFF0000all in(梭哈)DKP|r all in(梭哈)DKP是为了装备一个玩家出价所有的dkp和失去所有的dkp."
 
 
     },
     [4] = {
-        ["Name"] = "Whisper DKP",
-        ["Text"] = "|cFFFF0000Whisper DKP|r" ..
+        ["Name"] = "私聊DKP",
+        ["Text"] = "|cFFFF0000私聊DKP|r" ..
                 "|n|n" ..
-                "Whisper DKP is a feature that allows people to send you whispers to see their current DKP as well as the DKP table. The nice part about this feature is that the incoming and outgoing whispers related to Whisper DKP are hidden from you, so your chat box isn�t filled up. " ..
+                "私聊DKP是一个功能，允许团员们发送给你私聊，以查看他们当前的DKP以及DKP表。这项功能的好处在于，私聊dkp相关的传入和传出的私聊对你是隐藏 ，因此你的聊天框不会被私聊刷屏。" ..
                 "|n|n" ..
-                "To use the feature, anyone just needs to whisper you one of the following commands:" ..
+                "要使用此功能，任何人都只需向你私聊发出以下命令：" ..
                 "|n|n" ..
-                "|cFFFF0000!help|r - Lists the commands with instructions|n" ..
-                "|cFFFF0000!dkp|r - Tells them their current DKP|n" ..
-                "|cFFFF0000!list|r - Lists the DKP of everyone in your current group|n" ..
+                "|cFFFF0000'mydkp'|r - 告诉他当前的DKP|n" ..
+                "|cFFFF0000'查询'|r - 列出当前组中每个人的dkp|n" ..
                 "|n|n" ..
-                "!list and !listall can have class names added to the end to filter them. Examples:" ..
+                "'查询' 和 '查询所有' 可以在末尾添加职业名以筛选它们. 例如:" ..
                 "|n|n" ..
-                "|cFFFF0000!list hunter|r - Lists the DKP of all hunters in the current group|n" ..
-                "|cFFFF0000!list hunter paladin|r - Lists the DKP of all hunters and paladins in the current group"
+                "|cFFFF0000查询 LR|r - 列出当前组中所有猎人的dkp|n" ..
+                "|cFFFF0000查询 LR QS|r - 列出当前组中所有猎人和圣骑士的DKP"
     },
     [5] = {
-        ["Name"] = "Bidding",
-        ["Text"] = "|cFFFF0000Bidding|r" ..
+        ["Name"] = "竞拍",
+        ["Text"] = "|cFFFF0000竞拍|r" ..
                 "|n|n" ..
-                "An automated bidding feature is available for guilds that use bidding to decide who should receive an item. An item is first placed up for bid using the bidding window or using a chat command. Players in your raid can either say in a whisper / raid / party message how much they want to bid and the addon will pick up this information and display in on screen. Once bidding has ended you can select the winning users and click Award. This will automatically record this information in your DKP table." ..
+                "一个自动竞拍功能,可供使用竞拍价来决定谁应该收到物品的公会使用. 首先使用竞价窗口或聊天命令进行竞拍. 你的raid中的玩家可以在私聊/团队/队伍聊天频道中发出消息说他们想出价多少，这个竞拍模块会将获取这些信息并显示在屏幕上. 竞拍结束后，你可以选择获奖用户并单击奖励。这将自动将此信息记录在DKP表中。" ..
                 "|n|n" ..
-                "To start a bid using the bidding form you can select Bidding from the drop down menu. You can then enter the item name to bid on as well as an optional time in seconds for how long the bid should last. (Entering 0 here means there will be no time limit). Click Start the Bidding to being the bidding. You can shift+click on items in chat to autofill in the item name in the item name box. " ..
+                "若要使用竞拍表格开始投标，可以从下拉菜单中选择“竞拍”. 然后，你可以输入要竞拍的物品名称以及竞拍持续时间的可选时间（秒）. (在此处输入0表示没有时间限制). 单击“开始竞拍”,你也可以按住shift键并单击聊天框中的物品，方便在“物品名称”框中自动填写物品名称 " ..
                 "|n|n" ..
-                "Players can place bids by using a chat message or whisper with the command:|n" ..
-                "|cFFFF0000!bid #|r   (Example: !bid 20)" ..
+                "玩家可以使用聊天信息或私聊出价:|n" ..
+                "|cFFFF0000出价 #|r   (例如: 出价 20)" ..
                 "|n|n" ..
-                "To start a bid using chat commands you can say either of the following in chat:|n" ..
-                "|cFFFF0000!startbid ItemName|r|n" ..
-                "|cFFFF0000!startbid ItemName, #seconds|r" ..
+                "要使用聊天命令开始出价，你可以在聊天中说:|n" ..
+                "|cFFFF0000开拍 物品名|r|n" ..
+                "|cFFFF0000开拍 物品名, 时间(秒)|r" ..
                 "|n|n" ..
-                "The item name can either be typed in or entered via shift+clicking on an item. |n" ..
-                "A bid can then be stopped using the command|n" ..
-                "|cFFFF0000!stopbid|r" ..
+                "物品名称可以手动输入，也可以通过按住shift键并单击物品来输入. |n" ..
+                "然后可以使用命令停止竞拍|n" ..
+                "|cFFFF0000停拍|r" ..
                 "|n|n" ..
-                "If you are using a Fixed Bidding system (see options), players also have the option of whispering |cFFFF0000!need|r and |cFFFF0000!greed|r instead of bidding a specific amount."
+                "你如果正在使用固定DKP系统,玩家也可以选择私聊|cFFFF0000需求|r 和 |cFFFF0000贪婪|r 而不是出价."
 
     },
     [5] = {
-        ["Name"] = "Loot Table Integration",
-        ["Text"] = "|cFFFF0000Loot Table Integration|r" ..
+        ["Name"] = "战利品表集成系统",
+        ["Text"] = "|cFFFF0000战利品表集成系统|r" ..
                 "|n|n" ..
-                "A handy feature of the addon is that it is integrated with loot tables that you create on WebDKP.com . When you create a loot table on the site (either manually or by selecting one of the templates) this information is sent to the addon on your next sync." ..
-                " The WebDKP addon can then look up this information in different ways to make your life easier. " ..
+                "插件的一个方便的特性是让它与你在http://webdkp.wowcat.net上创建的战利品表集成在一起。在站点上创建战利品表（手动或通过选择一个模板）时，此信息将在下次同步时同步到插件内." ..
+                " 然后，webdkp插件可以以不同的方式查找这些信息，以使你的DKP管理生活更轻松。" ..
                 "|n|n" ..
-                "A few places where you will see the loot table information used:" ..
+                "在一些地方你会看到使用的战利品表信息:" ..
                 "|n|n" ..
-                "|cFFFF0000Award Item Tab|r|nIf you enter in a name in the Award Item tab the dkp cost will automattically be looked up and filled in for you." ..
+                "|cFFFF0000奖惩物品|r|n如果你在“奖惩物品”选项卡中输入一个名称，将自动查找并填写DKP价格" ..
                 "|n|n" ..
-                "|cFFFF0000Auto Awards|r|nIf you are using the AutoAward feature the popup will automattically fill in the item cost for you in the item cost field." ..
+                "|cFFFF0000自动奖惩|r|n如果你开启了自动奖惩功能，弹出窗口将自动在“物品成本”字段中为你填写物品DKP成本." ..
                 "|n|n" ..
-                "|cFFFF0000Fixed Bidding|r|nIf you are using the fixed bidding option item costs will be filled in from the loot table when you award a player. (see options for more details about fixed bidding)"
+                "|cFFFF0000固定竞拍|r|n如果你使用的是固定竞拍选项，当你奖励玩家时，物品成本将从战利品表中填写。（有关固定竞价的详细信息，请参见选项）"
     },
     [6] = {
-        ["Name"] = "Slash Commands",
-        ["Text"] = "|cFFFF0000Slash Commands|r" ..
+        ["Name"] = "可用命令",
+        ["Text"] = "|cFFFF0000可用命令|r" ..
                 "|n|n" ..
-                "The following are slash commands that can be used in game:" ..
-                " 1.) /webdkp show table - Displays the DKP Table. " ..
+                "下面是可以在游戏中使用的斜杠命令:" ..
+                " 1.) /webdkp show table - 显示dkp表 " ..
                 "|n|n" ..
-                " 2.) /webdkp show bidding - Displays the bidding window." ..
+                " 2.) /webdkp show bidding - 显示竞拍窗口." ..
                 "|n|n" ..
-                " 3.) /webdkp show synch - Displays the in game synch settings" ..
+                " 3.) /webdkp show synch - 显示游戏内同步设置" ..
                 "|n|n" ..
-                " 4.) /webdkp show options - Displays the options window" ..
+                " 4.) /webdkp show options - 显示设置窗口" ..
                 "|n|n" ..
-                " 5.) /webdkp show timed - Displays the Timed Awards window" ..
+                " 5.) /webdkp show timed - 显示时间分奖励窗口" ..
                 "|n|n" ..
-                " 6.) /webdkp show help - Displays the Help window" ..
+                " 6.) /webdkp show help - 显示帮助窗口" ..
                 "|n|n" ..
-                " 7.) /webdkp show log - Displays the Award Log window" ..
+                " 7.) /webdkp show log - 显示奖惩日志窗口" ..
                 "|n|n" ..
-                " 8.) /webdkp show raidlog - Displays the Raid Log window" ..
+                " 8.) /webdkp show raidlog - 显示团队日志窗口" ..
                 "|n|n" ..
-                " 9.) /webdkp show charlog - Displays the Character Raid Log window" ..
+                " 9.) /webdkp show charlog - 显示角色团队日志窗口" ..
                 "|n|n" ..
-                "10.) /webdkp start raid - Starts a raid in the Raid Log" ..
+                "10.) /webdkp start raid - 团队日志内开始一个Raid" ..
                 "|n|n" ..
-                "11.) /webdkp end raid - Ends a raid in the Raid Log" ..
+                "11.) /webdkp end raid - 团队日志内结束一个Raid" ..
                 "|n|n" ..
-                "12.) /webdkp ignore list - Lists all of the ignored items" ..
+                "12.) /webdkp ignore list - 列出所有忽略的物品" ..
                 "|n|n" ..
-                "13.) /webdkp ignore add - Adds an item to the ignore list" ..
+                "13.) /webdkp ignore add - 将物品添加到忽略列表" ..
                 "|n|n" ..
-                "14.) /webdkp ignore del - Deletes an item from the ignore list (It can't delete the default ones)"
+                "14.) /webdkp ignore del - 从忽略列表中删除物品 (不能删除默认的)"
     },
     [7] = {
-        ["Name"] = "Ignored Items",
-        ["Text"] = "|cFFFF0000Ignored Items|r" ..
+        ["Name"] = "忽略物品列表",
+        ["Text"] = "|cFFFF0000忽略物品|r" ..
                 "|n|n" ..
-                "WebDKP allows you to add items to the default ignore list. The default ignore list is contained in webdkp.lua and can't be edited from within the game. The following are the commands that allow you to list, add, and delete ignore items from within WoW" ..
+                "WebDKP允许你将物品添加到默认忽略列表. 默认忽略列表包含在WTF中的webdkp.lua中，无法从游戏中编辑。 以下是允许你在wow中列出、添加和删除忽略物品的命令" ..
                 "|n|n" ..
-                " 1.) The following is an example of how to list all items you've added " ..
+                " 1.) 下面是一个如何列出已添加的所有物品的示例 " ..
                 "     /webdkp ignore list" ..
                 "|n|n" ..
-                " 2.) The following is an example of how to add an item to the ignore list" ..
-                "     /webdkp ignore add itemname, Example: /webdkp ignore add Cloth Boots" ..
+                " 2.) 下面是如何将物品添加到忽略列表的示例" ..
+                "     /webdkp ignore add 物品名, 如: /webdkp ignore add 亚麻布" ..
                 "|n|n" ..
-                " 3.) The following is an example of how to delete an item from the ignore list" ..
-                "     /webdkp ignore del itemname, Example: /webdkp ignore del Cloth Boots"
+                " 3.) 下面是如何从忽略列表中删除物品的示例" ..
+                "     /webdkp ignore del 物品名, 如: /webdkp ignore add 亚麻布"
     },
 }
 
